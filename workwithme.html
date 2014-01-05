@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500,300italic,100italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,900' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<title>Waylon Brown</title>
+		<meta name="description" content="Android developer, student at Texas A&M, technology enthusiast.">
+		<meta name="author" content="Waylon Brown">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/scroll-sneak.js"></script>
+		<link rel="shortcut icon" 
+      		href="images/favicon.ico">
+      	<script src="js/main.js"></script>
+      	
+		<style type="text/css"></style>
+	</head>
+	<body style="zoom: 1;">
+		<header id="introduction">
+			<div class="icon">
+				<img src="images/logo3.png" height="20%">
+			</div>
+			<div id="fullname">
+				<div class="firstname">WAYLON</div><div class="lastname">Brown</div>
+			</div>
+			<h2><img id="androidlogo" src="images/android-logo.png">Android Developer<br>Founder of Appuccino LLC</h2>
+			<div id="icon_row">
+				<div id="emailicon"><a href="mailto:waylonjbrown@gmail.com"><img id="androidlogo" src="images/icon-email.png" title="Email me"></a></div>
+				<div id="androidicon"><a href="https://play.google.com/store/apps/developer?id=Appuccino%20LLC"><img id="androidlogo" src="images/icon-android.png" title="Google Play apps"></a></div>
+				<div id="linkedinicon"><a href="http://www.linkedin.com/in/waylonbrown"><img id="androidlogo" src="images/icon-linkedin.png" title="LinkedIn"></a></div>
+				<div id="githubicon"><a href="https://github.com/AggieDev"><img id="androidlogo" src="images/icon-github.png" title="Github"></a></div>
+			</div>
+			<div id="arrow_down">
+				<img src="images/arrow-down.png" width="50px" height="60px">
+			</div>
+
+		</header>
+		<div id="content">
+			<div id="menu">
+				<ul id="menulinks">
+				<li><a href="index.html" class="menulink">About me</a></li>
+				<li><a href="apps.html" class="menulink">Apps & Projects</a></li>
+				<li><a href="experience.html" class="menulink">Experience</a></li>
+				<li><a id="currentlink" href="" class="menulink">Work with Me</a></li>
+				</ul>
+			<hr>
+			</div>
+			<span class="title">What can I do for you?</span>
+			<span class="paragraphlarge">Need an Android app to be made?<br><br>I can design and make one for you, just <a href="mailto:waylonjbrown@gmail.com">send me an email!</a>
+			</span>
+			<div id="copyright"><br><br><br><br>©2013-2014 Waylon Brown and Appuccino LLC</div>
+		</div>
+		<script>
+			(function() {
+			    var sneaky = new ScrollSneak(location.hostname), tabs = document.getElementById('menulinks').getElementsByTagName('li'), i = 0, len = tabs.length;
+			    for (; i < len; i++) {
+			        tabs[i].onclick = sneaky.sneak;
+			    }
+			})();
+		</script>
+	</body>
+</html>
