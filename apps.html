@@ -7,6 +7,7 @@
 		<meta name="description" content="Android developer, student at Texas A&M, technology enthusiast.">
 		<meta name="author" content="Waylon Brown">
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/scroll-sneak.js"></script>
@@ -29,57 +30,111 @@
 				<div id="emailicon"><a href="mailto:waylonjbrown@gmail.com"><img id="androidlogo" src="images/icon-email.png" title="Email me"></a></div>
 				<div id="androidicon"><a href="https://play.google.com/store/apps/developer?id=Appuccino%20LLC"><img id="androidlogo" src="images/icon-android.png" title="Google Play apps"></a></div>
 				<div id="linkedinicon"><a href="http://www.linkedin.com/in/waylonbrown"><img id="androidlogo" src="images/icon-linkedin.png" title="LinkedIn"></a></div>
-				<div id="githubicon"><a href="https://github.com/AggieDev"><img id="androidlogo" src="images/icon-github.png" title="Github"></a></div>
 			</div>
 			<div id="arrow_down">
-				<img src="images/arrow-down.png" width="50px" height="60px">
+				<img src="images/arrow-down2.png" width="50px" height="60px">
 			</div>
 
 		</header>
 		<div id="content">
 			<div id="menu">
 				<ul id="menulinks">
-				<li><a href="index.html">About me</a></li>
-				<li><a id="currentlink" href="">Apps & Projects</a></li>
-				<li><a href="experience.html">Experience</a></li>
-				<li><a href="workwithme.html">Work with Me</a></li>
+				<li class="menuitem"><a href="index.html">About me</a></li>
+				<li class="menuitem"><a id="currentlink" href="">Apps & Projects</a></li>
+				<li class="menuitem"><a href="workwithme.html">Work with Me</a></li>
 				</ul>
 			<hr>
 			</div>
 			<span class="title">What have I worked on?</span>
+			<br>
+			<div class="appicons">
+				<div class="anchoricon"><a href="#workout"><img src="images/scientific7icon.png" title="Scientific 7 Minute Workout" height="80px" width="80px"></a></div>
+				<div class="anchoricon"><a href="#convert"><img src="images/holoconverticon.png" title="HoloConvert" height="80px" width="80px"></a></div>
+				<div class="anchoricon"><a href="#reddit"><img src="images/redditicon.png" title="RedditShare" height="80px" width="80px"></a></div>
+				<div class="anchoricon"><a href="#isis"><img src="images/isisicon.jpg" title="Isis Mobile Wallet" height="80px" width="80px"></a></div>
+				<div class="anchoricon"><a href="#zombie"><img src="images/zombieicon.png" title="Zombie Break-in" height="80px" width="80px"></a></div>
+				<div class="anchoricon"><a href="#list"><img src="images/cleanlisticon.png" title="CleanList" height="80px" width="80px"></a></div>
+				<div class="anchoricon"><a href="#silence"><img src="images/smartsilenceicon.png" title="SmartSilence" height="80px" width="80px"></a></div>
+			</div>
 			<div class="paragraph">
-				<div id="scientific7section">
-					<img id="scientific7logo" src="images/scientific7icon.png" title="Scientific 7 Minute Workout" height="120px" width="120px"><span class="apptitle">Scientific 7 Minute Workout</span>
+				<hr id="workout">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/scientific7icon.png" title="Scientific 7 Minute Workout" height="120px" width="120px"><div class="apptitle">Scientific 7 Minute Workout</div><a href="https://play.google.com/store/search?q=pub:Appuccino LLC"><img class="googleplaylink" alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></a></div>
+					<br><hr>
+					<div class="leftparagraph">Scientific 7 Minute Workout is my Android app based on <a style="text-decoration: none" href="http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout/?_r=0"><div class="textlink">a new workout</div></a> designed for those that would like a workout shorter but more intense than an average recommended workout.<br><br>This app has been very successful and has:<br>
+					• <span style="font-weight:bold;">120,000+ downloads</span> between the Pro and Free versions<br>
+					• <span style="font-weight:bold;">4.5/5 stars</span> overall<br>
+					• Was featured on <a style="text-decoration: none" href="http://lifehacker.com/scientific-7-minute-workout-makes-your-android-phone-an-706714821"><div class="textlink">LifeHacker</div></a> and <a style="text-decoration: none" href="http://www.xda-developers.com/android/get-fit-with-scientific-7-minute-workout/"><div class="textlink">XDA-Developers</div></a><br><br>
+					The Pro version of this app has peaked at:<br>• All apps → <span style="font-weight:bold;">#3</span> in Top New Paid Apps<br>
+					• All apps → <span style="font-weight:bold;">#100</span> in Top Paid Apps<br>
+					• Health and Fitness category → <span style="font-weight:bold;">#1</span> in Top New Paid Apps<br>
+					• Health and Fitness category → <span style="font-weight:bold;">#1</span> in Top New Free Apps (Free version)<br>
+					• Health and Fitness category → <span style="font-weight:bold;">#2</span> in Top Paid Apps</div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=ph9lwknp&t=1388950408" width="576" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
-				<hr>
-				<div id="holoconvertsection">
-					<img id="holoconvertlogo" src="images/holoconverticon.png" title="HoloConvert" height="120px" width="120px"><span class="apptitle">HoloConvert</span>
+				<hr id="convert">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/holoconverticon.png" title="HoloConvert" height="120px" width="120px"><span class="apptitle">HoloConvert</span><a href="https://play.google.com/store/search?q=pub:Appuccino LLC"><img class="googleplaylink" alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" /></a></div>
+					<br><hr>
+					<div class="leftparagraph">HoloConvert is my newest Android app. It does unit conversions, has a tip calculator, updates currency rates to be the most recent, and much more. There are other unit conversion Android apps out there, some quite powerful, but I felt they all looked old, outdated, and were not user-friendly. I therefore made this app to feature a modern holo design, while including features in other apps and adding more as well. <br><br>HoloConvert is:<br>
+					• <span style="font-weight:bold;">4.5/5 stars</span> overall<br>
+					• Was featured on <a style="text-decoration: none" href="http://www.xda-developers.com/android/convert-units-easily-with-holoconvert/"><div class="textlink">XDA-Developers</div></a></div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=p7jf2cpk&t=1388950851" width="576" height="384" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
-				<hr>
-				<div id="redditsection">
-					<img id="redditlogo" src="images/redditicon.png" title="RedditShare" height="120px" width="120px"><span class="apptitle">RedditShare</span>
+				<hr id="reddit">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/redditicon.png" title="RedditShare" height="120px" width="120px"><span class="apptitle">RedditShare</span></div>
+					<br><hr>
+					<div class="leftparagraph">RedditShare was my Android app I made as a 2-day project for <a style="text-decoration: none" href="http://rocksaucestudios.com/"><div class="textlink">Rocksauce Studios</div></a>. It displays Reddit posts and images using Reddit's JSON api for any subreddit, and gives quick access to share the link to the Reddit posts through Email or SMS.</div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=p7xjl7xz&t=1388952156" width="576" height="384" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
-				<hr>
-				<div id="isissection">
-					<img id="isislogo" src="images/isisicon.jpg" title="Isis Mobile Wallet" height="120px" width="120px"><span class="apptitle">Isis Mobile Wallet</span>
+				<hr id="isis">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/isisicon.jpg" title="Isis Mobile Wallet" height="120px" width="120px"><span class="apptitle">Isis Mobile Wallet</span></div>
+					<br><hr>
+					<div class="leftparagraph">Isis Mobile Wallet was the Android app that I worked  on as the sole Android Development Intern for <a style="text-decoration: none" href="https://www.paywithisis.com/"><div class="textlink">Isis</div></a> during the Summer 2013. I was responsible for developing functioning proof-of-concepts for future iterations of the Isis Wallet Android app.</div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=phkf2cpk&t=1388953397" width="576" height="384" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
-				<hr>
-				<div id="zombiesection">
-					<img id="zombielogo" src="images/zombieicon.png" title="Zombie Break-in" height="120px" width="120px"><span class="apptitle">Zombie Break-in</span>
+				<hr id="zombie">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/zombieicon.png" title="Zombie Break-in" height="120px" width="120px"><span class="apptitle">Zombie Break-in</span></div>
+					<br><hr>
+					<div class="leftparagraph">Zombie Break-in is a 3D zombie shooter that I, and another developer, are working on for Android and iOS. The game is being made in Unity3D. Development is currently paused but will be continued once we are both free from our other individual projects.</div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=p7na6n9j&t=1388954483" width="576" height="384" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
-				<hr>
-				<div id="cleanlistsection">
-					<img id="cleanlistlogo" src="images/cleanlisticon.png" title="CleanList" height="120px" width="120px"><span class="apptitle">CleanList</span>
+				<hr id="list">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/cleanlisticon.png" title="CleanList" height="120px" width="120px"><span class="apptitle">CleanList</span></div>
+					<br><hr>
+					<div class="leftparagraph">CleanList was a note-taking and To-Do list Android app that I began working on, focusing on a modern and clean design. Development of this app was cancelled when I did further research into the competition for this type of app in the app marketplace.</div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=ph3s6n9j&t=1388958624" width="576" height="384" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
-				<hr>
-				<div id="smartsilencesection">
-					<img id="smartsilencelogo" src="images/smartsilenceicon.png" title="SmartSilence" height="120px" width="120px"><span class="apptitle">SmartSilence</span>
+				<hr id="silence">
+				<div class="appsection">
+					<div class="applogoandtitle"><img class="logo" src="images/smartsilenceicon.png" title="SmartSilence" height="120px" width="120px"><span class="apptitle">SmartSilence</span><a href="https://play.google.com/store/search?q=pub:Appuccino LLC"><img class="googleplaylink" alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png"/></a></div>
+					<br><hr>
+					<div class="leftparagraph">SmartSilence was my very first Android app, and silences/vibrates and unsilences your phone automatically when you want it to in the week, or on a certain calendar date. At its launch, this is the only app I have made that did not exceed its expected mark as far as downloads and revenue, as it had certain uncorrected issues dealing with the Android alarm system, which would be interferred with when doing certain things such as turning off and on your phone, and at the time I was still learning many programming concepts.<br><br><br><br></div>
+					<div>
+						<iframe class="rightparagraph" style="border:none" src="http://files.photosnack.com/iframejs/embed.html?hash=phil4pjn&t=1388956876" width="576" height="384" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" ></iframe>
+					</div>
 					<br><br><br>
 				</div>
 			</div>
