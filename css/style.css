@@ -81,7 +81,7 @@ header h2
 	margin-top: 60px;
 }
 
-#emailicon, #androidicon, #linkedinicon
+#emailicon, #androidicon, #linkedinicon, #githubicon
 {
 	display: inline-block;
 	height: 250%;
@@ -94,7 +94,7 @@ header h2
       -ms-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
-#emailicon:hover, #androidicon:hover, #linkedinicon:hover
+#emailicon:hover, #androidicon:hover, #linkedinicon:hover, #githubicon:hover
 {
 	height:320%;
 }
